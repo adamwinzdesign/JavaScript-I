@@ -132,4 +132,11 @@ let BMWAndAudi = function(){
   return JSON.stringify(resultArray);
 }
 
+// OR
+
+// const BMWAndAudi = function() {
+//   const resultArray = inventory.filter(inventory => inventory.car_make === "BMW" || inventory.car_make === "Audi");
+//   return JSON.stringify(resultArray);
+// }
+
 console.log(BMWAndAudi());
